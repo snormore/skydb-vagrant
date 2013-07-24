@@ -1,7 +1,7 @@
 skydb-vagrant
 ==============
 
-Spin up a working vagrant VM using the skydb cookbook - http://github.com/skydb/sky
+Spin up a working skydb on a vagrant VM using the skydb cookbook - http://github.com/skydb/sky
 
 # Testing
 
