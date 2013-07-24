@@ -8,7 +8,7 @@ Spin up a working skydb on a vagrant VM using the skydb cookbook - http://github
  * Install VirtualBox from https://www.virtualbox.org/wiki/Downloads
  * Install Vagrant from http://downloads.vagrantup.com
  * Clone this repo `git clone git@github.com:snormore/skydb-vagrant.git`
- * `cd skydb-cookbook`
+ * `cd skydb-vagrant`
  * `sbin/init.sh` will clone dependent cookbook repositories into the `vendor-cookbooks` directory
  * `vagrant up`
  * `vagrant ssh`
