@@ -10,6 +10,7 @@ Spin up a working skydb on a vagrant VM using the skydb cookbook - http://github
  * Clone this repo `git clone git@github.com:snormore/skydb-vagrant.git`
  * `cd skydb-vagrant`
  * `sbin/init.sh` will clone dependent cookbook repositories into the `vendor-cookbooks` directory
+ * `vagrant box add skym http://files.vagrantup.com/precise64.box`
  * `vagrant up`
  * `vagrant ssh`
  * skydb is running on port 9845, you can do things such as `curl -X GET http://localhost:9845/tables` https://github.com/skydb/sky/blob/master/README.md
